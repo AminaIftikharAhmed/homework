@@ -1,0 +1,26 @@
+.box
+{
+	background-color: #e3e3e3;
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+	height: 204px;
+	width: 500px;
+	border: 1px solid black;
+    border-radius: 38px;
+
+	
+}
+img{
+	float: left;
+	padding-bottom: :40px;
+}
+
+div.absolute
+{
+	position: absolute;
+    float: right;
+    right: 30px;
+    top: 14px;
+	
+}
