@@ -1,0 +1,32 @@
+
+body, html {
+         height: 100%;
+         margin: 0; 
+         padding: 0;
+
+         }
+.image {
+        
+        background-image: radial-gradient(ellipse at center, rgba(255,255,51,1) 0%, rgba(128, 128, 128,1) 100%), url("g.jpg");
+        height: 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+.text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+}
+h1:hover {
+  background-color: #b2b299;
+}
+p:hover {
+  background-color: #b2b299;
+}
+button:hover {
+  background-color: #b2b299;
+}
