@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>comparison operations</title>
+
+			<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+
+		.jumbotron{
+			        margin: 30px;
+			        background-image: url(p.gif);
+			       /*background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 36%, rgba(248,181,0,1) 54%, rgba(251,223,147,1) 100%);*/
+                     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );
+        }             
+
+
+	     .btn-primary{
+
+	     	background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(231,196,146,1) 8%, rgba(201,125,20,0.95) 27%, rgba(186,118,17,0.86) 61%, rgba(179,114,16,0.92) 77%, rgba(233,212,179,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+
+	     	border-color: #346d9b;
+	     	position: relative;
+	     }
+
+
+
+	     /*
+
+	     .box{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+	     .box1{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+
+.box2{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+
+.box3{
+	     	
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+
+.box4{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+
+.box5{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+	     .box6{
+	     	position: absolute;
+	     	
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+
+.box7{
+	     	position: absolute;
+            width: 50px;
+            height: 50px;
+	     	border: 2px solid black;
+	     	top: 1px;
+	     	background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 35%, rgba(230,64,83,1) 56%, rgba(241,142,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+	     }
+*/
+
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="jumbotron text-center">
+		
+		<h1>We Love Challanges!</h1>
+
+		<button  type="button" class="btn-primary btn" onclick="txtChange()" >Change Text</button></div>
+		          
+		          <!-- <div class="box"></div>
+
+		          <div class="box1"></div>
+
+		          <div class="box2"></div>
+
+		          <div class="box3"></div>
+
+		          <div class="box4"></div>
+
+		          <div class="box5"></div>
+
+		          <div class="box6"></div>
+ -->
+
+		
+	
+	
+	<script type="text/javascript">
+		
+		
+		const header = document.querySelector('h1');
+		function txtChange(){
+			header.textContent = 'We Are Peaceful Nation!';
+		}
+		
+	</script>
+
+</body>
+</html>
