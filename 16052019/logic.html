@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logic</title>
+</head>
+<body> 
+	<script type="text/javascript">
+		//Or LOGIC
+		const user_name = 'zara';
+
+		if (user_name=='Amina' || user_name=='Maria' ) {
+			alert('Welcome to ' +''+ user_name);
+		}
+
+		else if (user_name=='Maria') {
+			console.log('Welcome Maria, Access Granted!');
+			document.write('Welcome Maria, Access Granted!');
+
+		}
+		else {
+				console.log('Access Denied!');
+			}
+
+		//And LOGIC
+		var a = true;
+		var b = false;
+		var linebreak = "<br />";
+		console.log(a && b);
+		document.write("(a && b) => "); 
+		result = (a && b);
+		document.write(result); 
+		document.write(linebreak);
+
+
+		// Not logic
+		var c = true;
+		var d = false;
+		var linebreak = "<br />";
+		console.log(c && d);
+		document.write("!(c && d) => "); 
+		result = (!(c && d));
+		document.write(result); 
+		document.write(linebreak);
+		//
+		
+
+	</script>
+	
+</body>
+</html>
