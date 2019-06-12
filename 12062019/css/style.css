@@ -1,0 +1,108 @@
+.backgroundHtml{
+      background-image: url("../img/h2.png");
+      background-repeat: no-repeat;
+      background-size: 200px 150px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+      opacity: 0.4px;
+    }
+    .backgroundHtml5{
+      background-image: url("../img/ht.png");
+      background-repeat: no-repeat;
+      background-size: 180px 170px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    .backgrounCss{
+      background-image: url("../img/cs.png");
+      background-repeat: no-repeat;
+      background-size: 230px 150px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    .backgrounJava{
+      background-image: url("../img/ja.png");
+      background-repeat: no-repeat;
+      background-size: 150px 160px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    .backgrounJavaScript{
+      background-image: url("../img/js.png");
+      background-repeat: no-repeat;
+      background-size: 300px 200px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    .backgrounbootstrap{
+      background-image: url("../img/bs.png");
+      background-repeat: no-repeat;
+      background-size: 300px 250px;
+      opacity: 0.4px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    .backgrounphp{
+      background-image: url("../img/php.png");
+      background-repeat: no-repeat;
+      background-size: 300px 200px;
+      /*margin: 0 auto;
+      display: block;*/
+      background-position: center center;
+    }
+    /*.bgcolor{
+      background-color: yellow;
+    }*/
+    .panel-default>.panel-heading.bgcolorhtml {
+    color: #333;
+    background-color: #b3f3f2;
+    border-color: #b3f3f2;
+    }
+    .panel-default>.panel-heading.bgcolorhtml5 {
+    color: #333;
+    background-color: #F5B7B1  ;
+    border-color: #F5B7B1  ;
+    }
+    .panel-default>.panel-heading.bgcolorCss {
+    color: #333;
+    background-color: #ABEBC6;
+    border-color: #ABEBC6;
+    }
+    .panel-default>.panel-heading.bgcolorJava {
+    color: #333;
+    background-color: #FCF3CF;
+    border-color: #FCF3CF;
+    }
+    .panel-default>.panel-heading.bgcolorJavaScript {
+    color: #333;
+    background-color: pink;
+    border-color: #F9F384;
+    }
+    .panel-default>.panel-heading.bgcolorBootStrap {
+    color: #333;
+    background-color: #F9F384;
+    border-color:#F9F384;
+    }
+    .panel-default>.panel-heading.bgcolorPhp {
+    color: #333;
+    background-color: #D2B4DE;
+    border-color: #FCF3CF;
+    }
+    h2{
+      font-family: 'Fredericka the Great', cursive;
+      text-align: center;
+      font-size: 50px;
+    }
+    body{
+      font-family: 'Racing Sans One', cursive;
+    }
+    p{
+      font-size: 25px;
+      font-family: 'Scheherazade', serif;
+    }
