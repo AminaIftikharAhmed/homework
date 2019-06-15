@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <!--  ///////////////////Fonts/////////////// -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <style>
+  	h1{
+       font-family: 'Lobster', cursive;
+       text-align: center;
+  	}
+  </style>
+</head>
+<body>
+	<h1>Vertical (basic) form</h1>
+	<div class="container">
+		<form action="">
+			<div class="form-group">
+				<label for="email"> Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter Password" name="pwd">
+			</div>
+
+			<div class="checkbox">
+				<label> <input type="checkbox" name="remember">Remember Me</label>
+			</div>
+			<button type="submit" btn btn-info>Submit</button>
+
+			<div>
+			<label for="gender"> Gender:</label>
+			<div class="checkbox">
+				<label class="checkbox-inline"><input type="checkbox" value="">Male</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">Female</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">None</label>
+			</div>
+
+			<div>
+				<label for="qualification"> Qualification:</label>
+				<label class="radio-inline"><input type="radio" name="optradio" checked>Option 1</label>
+				<label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+				<label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
+				
+			</div>
+
+			 <div class="form-group">
+		      <label for="sel1">Select list (select one):</label>
+		      <select class="form-control" id="sel1">
+		        <option>1</option>
+		        <option>2</option>
+		        <option>3</option>
+		        <option>4</option>
+		      </select>
+		      <br>
+		      <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+		      <select multiple class="form-control" id="sel2">
+		        <option>1</option>
+		        <option>2</option>
+		        <option>3</option>
+		        <option>4</option>
+		        <option>5</option>
+		      </select>
+		    </div>
+<hr>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<h1>Inline form</h1>
+	<div class="container">
+		<form class="form-inline" action="">
+			<div class="form-group">
+				<label for="email"> Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter Password" name="pwd">
+				
+			</div>
+			<div class="checkbox">
+				<label> <input type="checkbox" name="remember">Remember Me</label>
+			</div>
+			<button type="submit" btn btn-info>Submit</button>
+			<hr>
+		
+		<!-- //////////////////////////////////////////////////////////// -->
+
+		<h1>Form Horizontal</h1>
+	<div class="container">
+		<form class="form-horizontal" action="">
+			<div class="form-group">
+				<label for="email"> Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+			</div>
+
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter Password" name="pwd">
+			</div>
+
+			<div>
+				<label for="qualification">Qualification:</label>
+				<div class="radio">
+			      <label><input type="radio" name="optradio" checked>Matric</label>
+			    </div>
+			    <div class="radio">
+			      <label><input type="radio" name="optradio">Intermediate</label>
+			    </div>
+			    <div class="radio disabled">
+			      <label><input type="radio" name="optradio" disabled>Bacholar</label>
+			    </div>
+				
+			</div>
+
+			<div>
+				<label for="gender"> Gender:</label>
+			<div class="checkbox">
+			  <label><input type="checkbox" value="">Female</label>
+			</div>
+			<div class="checkbox">
+			  <label><input type="checkbox" value="">Male</label>
+			</div>
+			<div class="checkbox disabled">
+			  <label><input type="checkbox" value="" disabled>Both</label>
+			</div>
+
+			<div class="form-group">
+			  <label for="comment">Comment:</label>
+			  <textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+
+			<div class="checkbox">
+				<label> <input type="checkbox" name="remember">Remember Me</label>
+			</div>
+			<button type="submit" btn btn-info>Submit</button>
+
+<hr>
+
+		<!-- 	////////////////////////////////////////////////////// -->
+
+    <h1>Horizontal form with static control</h1>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <p class="form-control-static">someone@example.com</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+
+    
+    <br><br>
+    <h1>Horizontal form with ICON</h1>
+
+    <div class="input-group">
+	    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+	    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+	  </div>
+	  <div class="input-group">
+	    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+	    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+	  </div>
+	  <div class="input-group">
+	    <span class="input-group-addon">Text</span>
+	    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+         </div>
+		</form>
+</div>
+
+</body>
+</html>
