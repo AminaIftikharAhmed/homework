@@ -1,0 +1,31 @@
+html, body{
+	height: 100%;
+}
+body {
+ position: relative;
+  
+}
+body::after {
+  content: "";
+  background: url(./upload/sh.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+img{
+    max-width: 100%;
+    height: auto;
+    background: #40008b;
+    background: radial-gradient(#fff 30%, #007ee3 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
