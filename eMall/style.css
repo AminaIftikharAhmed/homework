@@ -1,0 +1,50 @@
+html, body{
+	height: 100%;
+}
+body {
+ position: relative;
+  
+}
+body::after {
+  content: "";
+  background: url(./upload/sh.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+img{
+    max-width: 100%;
+    height: auto;
+    background: #40008b;
+    background: radial-gradient(#fff 30%, #007ee3 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+
+span#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
